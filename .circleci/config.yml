@@ -2,7 +2,7 @@ version: 2.1
 executors:
   docker:
     docker:
-      - image: cimg/openjdk:17.0.1
+      - image: cimg/openjdk:17.0.2
         auth:
           username: nathandeamer
           password: $DOCKERHUB_PASSWORD
